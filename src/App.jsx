@@ -1,8 +1,8 @@
 import { useState } from "react";
-import GeneralInfo from "./components/GeneralInfo";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import CVPreview from "./components/CVPreview";
+import GeneralInfo from "./Components/GeneralInfo";
+import Education from "./Components/Education";
+import Experience from "./Components/Experience";
+import CVPreview from "./Components/CVPreview";
 
 function App() {
   const [generalInfo, setGeneralInfo] = useState({
